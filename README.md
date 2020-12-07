@@ -16,3 +16,8 @@ Some fliters might also move pixels around. Reflecting an image, for example, is
 - OpenCV can perform rotating image
 - A rotation matrix used to perform rotation in Euclidan space
 - It rotates points in the xy-plane counter clockwise through an angle theta aoobuth the origin
+# Translation
+- Shifting an object in x or y direction
+- OpenCV uses Translational matrix T, Tx, Ty
+# Resizing
+- cv.INTER_AREA for shrinking, cv.INTER_CUBIC for zooming
