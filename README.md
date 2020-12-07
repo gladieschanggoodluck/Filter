@@ -12,3 +12,7 @@
 Some fliters might also move pixels around. Reflecting an image, for example, is a filter where the resulting image is what you would get by placing the original image in front of a mirror. So any pixels on the left side of the image should end up n the right, adn vice versa.
 #Blur
 - There are a number of ways to create the effect of blurring or softing an image. For this problem, we will use "box blur", which workss by taking each pixel and, for each color value, giving it a new value by averaging the color values of neighboring pixels.
+# Image transformations
+- OpenCV can perform rotating image
+- A rotation matrix used to perform rotation in Euclidan space
+- It rotates points in the xy-plane counter clockwise through an angle theta aoobuth the origin
